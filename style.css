@@ -1,0 +1,41 @@
+body{
+    background-color: bisque;
+    height: 100%;
+    width: 100%;
+}
+
+.main_class{
+    background: whitesmoke;
+    height: 95vh;
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.header_section{
+    height: 10vh;
+    border-bottom: 1px solid red;
+}
+
+.header_title{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.body_section{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.row{
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.row label{
+    align-items: left;
+}

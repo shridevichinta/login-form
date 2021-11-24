@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main_class">
+        <form action="#">
+            <div class="header_section"><h1 class="header_title">Fill Form</h1></div>
+            <div class="body_section">
+                <div class="row">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" name="" id="first_name" placeholder="Enter First Name">
+                </div>
+                <div class="row">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" name="" id="last_name" placeholder="Enter Last Name">
+                </div>
+                <div class="row">
+                    <label for="mail_id">Mail ID:</label>
+                    <input type="email" name="" id="" placeholder="Enter Mail ID"> 
+                </div>
+                <div class="row">
+                    <label for="phone_no">Phone No:</label>
+                    <input type="tel" name="" id="" placeholder="Enter Phone No">
+                </div>
+                <div class="row">
+                    <label for="DOB">DOB</label>
+                    <input type="date" name="" id="">
+                </div>
+                <div class="row">
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" value="Female" id="">
+                    <label for="Female" >Female</label>
+                    <input type="radio" name="gender" value="Male">
+                    <label for="Male" >Male</label>
+                    <input type="radio" name="gender" value="Other">
+                    <label for="Other" >Other</label>
+                </div>
+                <div class="row">
+                    <label for="address">Address:</label>
+                    <textarea name="" id="" cols="20" rows="3"></textarea>
+                </div>
+                <div class="row">
+                    <label for="technology">Technology: </label>
+                    <input type="checkbox" name="" id="">
+                    <label for="javascript">JavaScript</label><br>
+                    <input type="checkbox" name="" id="">
+                    <label for="javascript">CSS</label><br>
+                    <input type="checkbox" name="" id="">
+                    <label for="javascript">HTML</label>
+                </div>
+                <div class="row">
+                    <label for="file">Choose a File</label>
+                    <input type="file" name="" id="">
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit" onclick="form_submit()">
+                    <input type="reset" value="Reset">
+                </div>
+                <br>
+            </div>
+        </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
